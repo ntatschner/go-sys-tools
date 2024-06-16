@@ -5,5 +5,5 @@ import (
 )
 
 type BackgroundPort interface {
-	GetBackground(path string) (string, error)
+	GetBackground(path string) (domain.Background, error)
 }
